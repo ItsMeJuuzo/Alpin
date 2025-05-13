@@ -75,6 +75,24 @@ header {
     0% { background-position-y: 100%; }
     100% { background-position-y: 0%; }
 }
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .card img {
+        max-width: 90%;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .subtitle h2 {
+        font-size: 1.2rem;
+    }
+}
 
 }
 
